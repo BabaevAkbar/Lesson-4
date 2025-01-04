@@ -1,0 +1,15 @@
+/home/akbar/Рабочий стол/Lesson/Lesson#4/bin/Debug/net8.0/Lesson#4
+/home/akbar/Рабочий стол/Lesson/Lesson#4/bin/Debug/net8.0/Lesson#4.deps.json
+/home/akbar/Рабочий стол/Lesson/Lesson#4/bin/Debug/net8.0/Lesson#4.runtimeconfig.json
+/home/akbar/Рабочий стол/Lesson/Lesson#4/bin/Debug/net8.0/Lesson#4.dll
+/home/akbar/Рабочий стол/Lesson/Lesson#4/bin/Debug/net8.0/Lesson#4.pdb
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.GeneratedMSBuildEditorConfig.editorconfig
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.AssemblyInfoInputs.cache
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.AssemblyInfo.cs
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.csproj.CoreCompileInputs.cache
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.sourcelink.json
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.dll
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/refint/Lesson#4.dll
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.pdb
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/Lesson#4.genruntimeconfig.cache
+/home/akbar/Рабочий стол/Lesson/Lesson#4/obj/Debug/net8.0/ref/Lesson#4.dll
