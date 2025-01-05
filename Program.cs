@@ -47,138 +47,162 @@ namespace Lesson4
             //     }
             // }
 
-            //Задание 3
-            Console.WriteLine("Выберите фигуру: \n(1)Приямоугольник\n(2)Прямоугольный треугольник\n(3)Равносторонний треугольник\n(4)Ромб");
-            int message = int.Parse(Console.ReadLine());
-            switch (message)
+            // //Задание 3
+            // Console.WriteLine("Выберите фигуру: \n(1)Приямоугольник\n(2)Прямоугольный треугольник\n(3)Равносторонний треугольник\n(4)Ромб");
+            // int message = int.Parse(Console.ReadLine());
+            // switch (message)
+            // {
+            //     case 1:
+            //     {
+            //         //Прямоугольник
+            //         int width = 30;
+            //         int height = 9;
+            //         for(int i = 1; i <= height; i++)
+            //         {
+            //             for(int j = 1; j <= width; j++)
+            //             {
+            //                 if(i == 1 || i == height)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 else if(j != 1)
+            //                 {
+            //                     Console.Write(" ");
+            //                 }
+            //                 if(i != 1 && j == 1 || i != height && j == width)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //             }
+            //             Console.Write("\n");
+            //         }
+            //         break;
+            //     }
+            //     case 2:
+            //     {
+            //         //Прямоугольный треугольник
+            //         int a = 13;
+            //         for(int i = 1; i <= a; ++i)
+            //         {
+            //             for(int j = 1; j <= i; j++)
+            //             {
+            //                 if(i != a)
+            //                 {
+            //                     if(j == 1 || j == i)
+            //                     {
+            //                         Console.Write("*");
+            //                     }
+            //                     else if(j > 1 && j < i)
+            //                     {
+            //                         Console.Write(" ");
+            //                     }
+            //                 }
+            //                 if(i == a)
+            //                 { 
+            //                     Console.Write("*");
+            //                 }
+            //             }
+            //             Console.Write("\n");
+            //         }
+            //         break;
+            //     }
+            //     case 3:
+            //     {
+            //         // Равносторонний треугольник
+            //         int a2 = 15;
+            //         int b = 29;
+            //         int center = b/2;
+            //         for(int i = 1; i <= a2; i++)
+            //         {
+            //             for(int j = 1; j <= b; j++)
+            //             {
+            //                 if(center + i == j || center - i + 2 == j && i != 1 )
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 else if(center + 1 == j && i == 1)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 else if(i == a2)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 else
+            //                 {
+            //                     Console.Write(" ");
+            //                 }
+            //             }
+            //             Console.Write("\n");
+            //         }
+            //         break;
+            //     }
+            //     case 4:
+            //     {
+            //         // Ромб
+            //         int a1 = 9;
+            //         int b1 = 41;
+            //         int center1 = b1/2;
+            //         int center2 = a1 / 2;
+            //         for(int i = 1; i <= a1; i++)
+            //         {
+            //             for(int j = 1; j <= b1; j++)
+            //             {
+            //                 if(i != 1 && i <= center2 && (j == center1 - i * 3 + 3 || j == center1 + i * 3 - 2))
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 if(i == 1 && j == center1 + 1)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 if(i == a1 && j == center1 + 1)
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 if(i != a1 && i > center2 && (j == center1 + i * 3 - 27 || j == center1 - i * 3 + 29))
+            //                 {
+            //                     Console.Write("*");
+            //                 }
+            //                 else
+            //                 {
+            //                     Console.Write(" ");
+            //                 }
+            //             }
+            //             Console.Write("\n");
+            //         }
+            //         break;
+            //     }
+            //     default:
+            //     {
+            //         Console.WriteLine("Некорректные данные! Пожалуйста введите корректные данные!");
+            //         break;
+            //     }
+            //}
+
+            //Задание 4
+            Console.WriteLine("Введите сумму вклада: (мин. 1000сом)");
+            double deposit = double.Parse(Console.ReadLine());
+            if(deposit < 1000)
             {
-                case 1:
-                {
-                    //Прямоугольник
-                    int width = 30;
-                    int height = 9;
-                    for(int i = 1; i <= height; i++)
-                    {
-                        for(int j = 1; j <= width; j++)
-                        {
-                            if(i == 1 || i == height)
-                            {
-                                Console.Write("*");
-                            }
-                            else if(j != 1)
-                            {
-                                Console.Write(" ");
-                            }
-                            if(i != 1 && j == 1 || i != height && j == width)
-                            {
-                                Console.Write("*");
-                            }
-                        }
-                        Console.Write("\n");
-                    }
-                    break;
-                }
-                case 2:
-                {
-                    //Прямоугольный треугольник
-                    int a = 13;
-                    for(int i = 1; i <= a; ++i)
-                    {
-                        for(int j = 1; j <= i; j++)
-                        {
-                            if(i != a)
-                            {
-                                if(j == 1 || j == i)
-                                {
-                                    Console.Write("*");
-                                }
-                                else if(j > 1 && j < i)
-                                {
-                                    Console.Write(" ");
-                                }
-                            }
-                            if(i == a)
-                            { 
-                                Console.Write("*");
-                            }
-                        }
-                        Console.Write("\n");
-                    }
-                    break;
-                }
-                case 3:
-                {
-                    // Равносторонний треугольник
-                    int a2 = 15;
-                    int b = 29;
-                    int center = b/2;
-                    for(int i = 1; i <= a2; i++)
-                    {
-                        for(int j = 1; j <= b; j++)
-                        {
-                            if(center + i == j || center - i + 2 == j && i != 1 )
-                            {
-                                Console.Write("*");
-                            }
-                            else if(center + 1 == j && i == 1)
-                            {
-                                Console.Write("*");
-                            }
-                            else if(i == a2)
-                            {
-                                Console.Write("*");
-                            }
-                            else
-                            {
-                                Console.Write(" ");
-                            }
-                        }
-                        Console.Write("\n");
-                    }
-                    break;
-                }
-                case 4:
-                {
-                    // Ромб
-                    int a1 = 9;
-                    int b1 = 41;
-                    int center1 = b1/2;
-                    int center2 = a1 / 2;
-                    for(int i = 1; i <= a1; i++)
-                    {
-                        for(int j = 1; j <= b1; j++)
-                        {
-                            if(i != 1 && i <= center2 && (j == center1 - i * 3 + 3 || j == center1 + i * 3 - 2))
-                            {
-                                Console.Write("*");
-                            }
-                            if(i == 1 && j == center1 + 1)
-                            {
-                                Console.Write("*");
-                            }
-                            if(i == a1 && j == center1 + 1)
-                            {
-                                Console.Write("*");
-                            }
-                            if(i != a1 && i > center2 && (j == center1 + i * 3 - 27 || j == center1 - i * 3 + 29))
-                            {
-                                Console.Write("*");
-                            }
-                            else
-                            {
-                                Console.Write(" ");
-                            }
-                        }
-                        Console.Write("\n");
-                    }
-                    break;
-                }
-                default:
-                {
-                    Console.WriteLine("Некорректные данные! Пожалуйста введите корректные данные!");
-                    break;
-                }
-            }  
+                Console.WriteLine("Неправильная сумма! Сумма должна быть высше 1000 смн");
+                return;
+            }
+            Console.WriteLine("Введите прцент вклада: (от 0% дл 25%)");
+            double percent = double.Parse(Console.ReadLine());
+            double result = deposit;
+            if(percent <= 0 ||percent >= 25)
+            {
+                Console.WriteLine("Неправильная процент! Процент должен быть в пределах от 0% до 25%");
+                return;
+            }
+            int mounth = 0;
+            while(result < 1100)
+            {
+                result = result + (result * (percent / 100));
+                mounth++;
+            }
+            Console.WriteLine($"Депозит с размером {deposit} смн. и с процентами {percent}% превысит отметку 1100 сом через {mounth} месяцев. Сумма {result}");
         }
     }
 }
